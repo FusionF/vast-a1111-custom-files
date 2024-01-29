@@ -18,15 +18,15 @@ PIP_PACKAGES=(
   )
 
 EXTENSIONS=(
-    "https://github.com/Mikubill/sd-webui-controlnet"
-    "https://github.com/d8ahazard/sd_dreambooth_extension"
-    "https://github.com/deforum-art/sd-webui-deforum"
-    "https://github.com/adieyal/sd-dynamic-prompts"
-    "https://github.com/ototadana/sd-face-editor"
+    #"https://github.com/Mikubill/sd-webui-controlnet"
+    #"https://github.com/d8ahazard/sd_dreambooth_extension"
+    #"https://github.com/deforum-art/sd-webui-deforum"
+    #"https://github.com/adieyal/sd-dynamic-prompts"
+    #"https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    "https://github.com/hako-mikan/sd-webui-regional-prompter"
-    "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/fkunn1326/openpose-editor"
+    #"https://github.com/hako-mikan/sd-webui-regional-prompter"
+    #"https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+    #"https://github.com/fkunn1326/openpose-editor"
     "https://github.com/Gourieff/sd-webui-reactor"
 )
 
@@ -36,10 +36,10 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     "https://civitai.com/api/download/models/220737" #Galena REDUX
-    #"https://civitai.com/api/download/models/106922?type=Model&format=SafeTensor&size=pruned&fp=fp16" #Hassaku Hentai
+    "https://civitai.com/api/download/models/106922?type=Model&format=SafeTensor&size=pruned&fp=fp16" #Hassaku Hentai
     #"https://civitai.com/api/download/models/108545?type=Model&format=SafeTensor&size=pruned&fp=fp16" #Misstoon Anime
-    #"https://civitai.com/api/download/models/5038?type=Pruned%20Model&format=SafeTensor&size=pruned&fp=fp16" #AbyssOrangeMIX
-    #"https://civitai.com/api/download/models/100675?type=Model&format=SafeTensor&size=pruned&fp=fp16" #MeinaHentai
+    "https://civitai.com/api/download/models/5038?type=Pruned%20Model&format=SafeTensor&size=pruned&fp=fp16" #AbyssOrangeMIX
+    "https://civitai.com/api/download/models/100675?type=Model&format=SafeTensor&size=pruned&fp=fp16" #MeinaHentai
 )
 
 LORA_MODELS=(
@@ -60,19 +60,19 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_depth-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_keypose-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
