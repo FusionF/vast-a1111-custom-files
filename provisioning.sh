@@ -35,11 +35,16 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://civitai.com/api/download/models/220737" #Galena REDUX
-    "https://civitai.com/api/download/models/106922?type=Model&format=SafeTensor&size=pruned&fp=fp16" #Hassaku Hentai
-    #"https://civitai.com/api/download/models/108545?type=Model&format=SafeTensor&size=pruned&fp=fp16" #Misstoon Anime
-    "https://civitai.com/api/download/models/5038?type=Pruned%20Model&format=SafeTensor&size=pruned&fp=fp16" #AbyssOrangeMIX
-    "https://civitai.com/api/download/models/100675?type=Model&format=SafeTensor&size=pruned&fp=fp16" #MeinaHentai
+    "https://civitai.com/api/download/models/220737" 
+    #Galena REDUX
+    "https://civitai.com/api/download/models/106922?type=Model&format=SafeTensor&size=pruned&fp=fp16" 
+    #Hassaku Hentai
+    #"https://civitai.com/api/download/models/108545?type=Model&format=SafeTensor&size=pruned&fp=fp16" 
+    #Misstoon Anime
+    "https://civitai.com/api/download/models/5038?type=Pruned%20Model&format=SafeTensor&size=pruned&fp=fp16" 
+    #AbyssOrangeMIX
+    "https://civitai.com/api/download/models/100675?type=Model&format=SafeTensor&size=pruned&fp=fp16" 
+    #MeinaHentai
 )
 
 LORA_MODELS=(
@@ -50,7 +55,8 @@ VAE_MODELS=(
     "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
-    "https://civitai.com/api/download/models/28569" #kIF8Anime2 VAE
+    "https://civitai.com/api/download/models/28569" 
+    #kIF8Anime2 VAE
 )
 
 ESRGAN_MODELS=(
